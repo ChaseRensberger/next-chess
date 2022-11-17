@@ -1,9 +1,12 @@
-const HomePage = () => {
+'use client';
+import { Chessboard } from 'react-chessboard';
+
+const Main = () => {
 	return (
-		<div>
-			<h1>Hello!</h1>
+		<div className="page">
+			<Chessboard id="BasicBoard" />
 		</div>
 	);
 };
 
-export default HomePage;
+export default Main;
